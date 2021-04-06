@@ -105,8 +105,8 @@
       </div>
       <form id="survey-form" class="flex flex-col px-3 mt-8 space-y-5 lg:space-x-3 xl:px-0 xl:space-y-0 lg:flex-row"
         method="post">
-        <label for="email" class="sr-only">Enter your email address</label>
-        <input type="email" name="email" id="email"
+        <label for="email-1" class="sr-only">Enter your email address</label>
+        <input type="email" name="email" id="email-1"
           class="w-full px-5 py-3 mx-auto text-xs text-gray-800 placeholder-gray-400 duration-500 ease-linear border border-purple-900 rounded shadow-lg xl:w-3/5 xl:py-2 focus:shadow-none focus:outline-none"
           autocomplete="off" placeholder="Enter your email..." required aria-required="true"
           pattern="[^@ \t\r\n]+@[^@ \t\r\n]+\.[^@ \t\r\n]+">
@@ -191,10 +191,10 @@
         If you have any questions, our support team would be happy to help you.</p>
     </div>
 
-    <form action="" class="flex flex-col space-y-3">
-      <label for="email" class="sr-only">Get Started For Free</label>
+    <form method="post" class="flex flex-col space-y-3">
+      <label for="email-2" class="sr-only">Get Started For Free</label>
       <input class="w-64 px-3 py-2 text-xs tracking-wider text-gray-800 placeholder-gray-400 rounded-sm xl:w-80"
-        type="email" name="email" id="email" placeholder="email@example.com..." required aria-required="true">
+        type="email" name="email" id="email-2" placeholder="email@example.com..." required aria-required="true">
       <button
         class="w-64 py-2 text-xs font-raleway font-bold tracking-wide text-white transition-all duration-500 ease-linear flex justify-center items-center rounded-sm shadow-lg hover:shadow-none xl:w-40 hover:bg-blue-500"
         style="background-color: #3065f8;" type="submit">Get Started For
